@@ -1,6 +1,6 @@
 # Spoidy Information
 
-Spoidy is a Good Moderation Bot
+Spoidy is a Great Discord Moderation Bot
 
 ## Developer:
 
