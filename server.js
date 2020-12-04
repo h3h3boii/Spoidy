@@ -1,7 +1,7 @@
 var dbd = require("dbd.js");
 var fs = require("fs");
 var bot = new dbd.Bot({
-  token: "NzQ5MTMzNDM1Nzc5NTQ3MTg4.X0ni4Q.8yjc-89r9FvmTqZxLW69YVI-wuQ",
+  token: "SPOIDY_TOKEN",
   prefix: "S!"
 });
 
