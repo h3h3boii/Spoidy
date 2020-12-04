@@ -1,8 +1,12 @@
 # Spoidy Information
 
-Spoidy is a moderation bot named after a YouTuber iSteal Who has 30k Subscribers
+Spoidy is a Good Moderation Bot
 
-## Acknowledgements:
+## Developer:
+
+TrueGamerTalha: (TrueGamerTalhaYT#5459)
+
+### Acknowledgements:
 
 Moderation
 
