@@ -1,7 +1,8 @@
 module.exports = {
     name: "avatar",
+    aliases: ["av", "avatar"],
     code: `$title[$username[$mentioned[1]]’s Avatar:]
-$color[b200ff]
-$argsCheck[>1;Please mention someone]
-$image[$userAvatar[$mentioned[1]]]`
+$color[ffffff]
+$image[$userAvatar[$mentioned[1]]]
+$suppressErrors[You Must Mention Someone!]`
 }

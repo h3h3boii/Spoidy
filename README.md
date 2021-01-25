@@ -1,12 +1,8 @@
 # Spoidy Information
 
-Spoidy is an Advanced Discord Moderation Bot
+Spoidy is a moderation bot named after a YouTuber iSteal Who has 30k Subscribers
 
-## Developer:
-
-TrueGamerTalha: (TrueGamerTalhaYT#5459)
-
-### Acknowledgements:
+## Acknowledgements:
 
 Moderation
 

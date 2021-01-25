@@ -1,15 +1,8 @@
-module.exports = {
+ module.exports = {
   name: "info",
-  code: `$title[Spoidy Information]
-$color[b200ff]
-$description[
-**Ping**
-$ping MS
-**Servers**
-$serverCount Servers
-**Total Users**
-$allMembersCount
-**Uptime**
-$uptime
-]`
+  code: `$title[**Spoidy's Information**]
+$color[ffffff]
+$addField[**Members**;$allMembersCount]
+$addField[**Servers**;$serverCount]
+$addField[**Ping**;$ping MS]`
 };
