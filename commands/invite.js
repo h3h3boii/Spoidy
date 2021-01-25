@@ -1,5 +1,6 @@
 module.exports = {
-    name: "invite",
-    code: `$color[b200ff]
-$title[Invite me: $getBotInvite]`
-}
+  name: "invite",
+  code: `
+$description[[Click Here To Invite Spoidy!\\](https://discord.com/oauth2/authorize?client_id=749133435779547188&scope=bot&permissions=2081029311)]
+$color[ffffff]`
+};

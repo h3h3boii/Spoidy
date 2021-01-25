@@ -1,8 +1,8 @@
 module.exports = {
     name: "lovecheck",
-    code: `$argsCheck[>1;**YOU MUST MENTION THE PERSON.**]
+    code: `$onlyIf[$mentioned[1]!=;You must mention someone.]
 $title[Love is great💕]
 $description[The strength of this feeling between $username and $username[$mentioned[1]] is of $random[0;100]% 💕💕💕]
-$color[b200ff]
-`
+$color[ffffff]
+$suppressErrors[You Must Mention Someone!]`
 } 
