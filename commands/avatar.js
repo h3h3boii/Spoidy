@@ -1,8 +1,7 @@
-module.exports = {
-    name: "avatar",
-    aliases: ["av", "avatar"],
-    code: `$title[$username[$mentioned[1]]’s Avatar:]
-$color[ffffff]
-$image[$userAvatar[$mentioned[1]]]
-$suppressErrors[You Must Mention Someone!]`
-}
+module.exports = ({
+    name:"avatar",
+    aliases: ["avatar", "av"],
+    code:`$author[Avatar for $userTag[$findUser[$message]]]
+    $image[$replaceText[$userAvatar[$findUser[$message]];size=2048;size=1024]]
+    $color[ffffff]`
+})
