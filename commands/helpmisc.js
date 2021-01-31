@@ -1,6 +1,7 @@
 module.exports = {
   name: "helpmisc",
-  code: `$title[<a:748054243499573278:762874871692656650> Spoidy Misc. Commands]
+  aliases: ["hmisc"],
+  code: `$title[<a:helpmisc:803583781759877180> Spoidy Misc. Commands]
 $description[**S!help**
 Shows The Help Commands
 

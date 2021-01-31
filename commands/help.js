@@ -1,19 +1,23 @@
 module.exports = {
   name: "help",
-  code: `$title[<a:Verify:791529550001078313> **Spoidy Help Commands**]
+  aliases: ["h", "help"],
+  code: `$title[<a:spoidyhelp:803582715085193217> **Spoidy Help Commands**]
   
-$description[╔═ ≪ °❈° ≫ ═╗
-  <a:rgb_right:762873847883759626> Prefix: S!
-╚═ ≪ °❈° ≫ ═╝
-<a:748054243499573278:762874871692656650> **S!helpmisc**
+$description[**╔═ ≪ °❈° ≫ ═╗**
+  <a:sprefix:803590409028370460> **Prefix: S!**
+**╚═ ≪ °❈° ≫ ═╝**
+<a:helpmisc:803583781759877180> **S!helpmisc**
 Misc. Commands List
 
-<a:Official_staff_discord:791530618004570124> **S!helpmod**
+<a:helpmod:803582980957667378> **S!helpmod**
 Moderation Commands List
 
-<a:GL_23:794111730820972564> **S!helpfun**
+<a:helputils:793138825517072394> **S!helpsettings**
+ServerSettings Commands List
+
+<a:helpfun:803589215664209940> **S!helpfun**
 Fun Commands List
-]
+[Support Server\\](https://discord.gg/m5AYsxf7UD) | [Invite Me\\](https://discord.com/oauth2/authorize?client_id=749133435779547188&scope=bot&permissions=2081029311)]
 
 $color[ffffff]`
 };

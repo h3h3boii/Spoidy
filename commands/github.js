@@ -1,5 +1,5 @@
 module.exports = {
   name: "github",
-  code: `$description[[GitHub Repository Of Spoidy:\\](https://github.com/TrueGamerTalha/Spoidy)]
+  code: `$title[GitHub Repository For Spoidy:;https://github.com/TrueGamerTalha/Spoidy]
 $color[ffffff]`
 }

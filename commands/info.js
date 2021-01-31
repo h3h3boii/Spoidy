@@ -1,6 +1,7 @@
  module.exports = {
   name: "info",
-  code: `$title[**Spoidy's Information**]
+  aliases: ["i", "info"],
+  code: `$title[<a:spoidyhelp:803582715085193217> **Spoidy's Information**]
 $color[ffffff]
 $addField[**Members**;$allMembersCount]
 $addField[**Servers**;$serverCount]

@@ -1,6 +1,7 @@
 module.exports = {
   name: "helpfun",
-  code: `$title[<a:GL_23:794111730820972564> Spoidy Fun Commands]
+  aliases: ["hfun"],
+  code: `$title[<a:helpfun:803589215664209940> Spoidy Fun Commands]
 $description[**S!lovecheck <@user>**
 Check Love Beteen You And The Username
 
@@ -10,19 +11,23 @@ Make The Bot Say For You
 **S!embed <message>**
 Make The Bot Say For You In Embed
 
+**S!eject <user>**
+Eject a user from the SpaceShip
+
+**S!fact**
+Learn A New Fact
+
+**S!meme**
+Get Funny Memes From Reddit
+
+**S!avatar <user>**
+Get A User's Avatar
+
 **S!hack <user>**
 Hacks A User For Fun
 
-**S!riddle**
-Get Some Riddles And Answers
-
-**S!avatar <user>**
-Gives The User's Avatar
-
 **S!coinflip**
 Flips A Coin
-
-**S!rps**
-Play Rock,Paper,Scissors With The Bot]
+]
 $color[ffffff]`
 }

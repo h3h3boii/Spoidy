@@ -6,5 +6,6 @@ $channelSendMessage[$channelID;{title:**$username[$mentioned[1]]#$discriminator[
 $onlyIf[$rolePosition[$highestRole[$authorID]]<$rolePosition[$highestRole[$mentioned[1]]];That user is higher than you on role position.]
 $onlyIf[$mentioned[1]!=$authorID;You can't mute yourself]
 $onlyIf[$mentioned[1]!=;You must mention someone.]
-$onlyPerms[manageroles;{title:Missing Permissions}{color:ffffff}{description:You don't have **Manage Roles** permissions to use this command}]`
+$onlyPerms[manageroles;{title:Missing Permissions}{color:ffffff}{description:You don't have **Manage Roles** permissions to use this command}]
+$suppressErrors[Please make a role named **Muted**]`
 })
