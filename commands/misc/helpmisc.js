@@ -3,10 +3,13 @@ module.exports = {
   aliases: ["hmisc"],
   code: `$title[<a:helpmisc:803583781759877180> Spoidy Misc. Commands]
 $description[**S!help**
-Shows The Help Commands
+Shows The Help Commands 
 
 **S!info**
 Shows Spoidy's Stats
+
+**S!vote**
+Vote For Spoidy To Get Rewards
 
 **S!support**
 Gives Link To Support Server
