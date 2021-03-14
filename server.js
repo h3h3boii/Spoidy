@@ -6,13 +6,13 @@ const bot = new dbd.Bot({
 });
 
 bot.status({
-  text: "$serverCount Servers || :help",
+  text: "$serverCount Servers || S.help",
   type: "WATCHING",
   time: 12
 });
 
 bot.status({
-  text: "My Owner is VISHU",
+  text: "Mention Me For Help",
   type: "PLAYING",
   time: 12
 });
@@ -23,7 +23,7 @@ bot.loadCommands("./commands/");
 
 bot.variables({
   warn: "0",
-  prefix: ":",
+  prefix: "S.",
 });
 
 bot.command({
