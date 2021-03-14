@@ -1,7 +1,7 @@
 module.exports = {
   name: "calender",
-  aliases: ["calender", "cal"],
+  aliases: ["cal"],
   code: `$title[Calender Of 2021:]
-  $description[**$month** Months, **$day** Days, **$hour** Hours]
-  $color[ffffff]`
+  $description[**$day** ,**$month** , **$year**]
+  $color[00FCFF]`
 }

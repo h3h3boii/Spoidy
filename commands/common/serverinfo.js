@@ -3,7 +3,7 @@ module.exports = {
   aliases: ["si", "serverinfo"],
   code: `$title[**$serverName[$guildID]**]
  $thumbnail[$serverIcon]
- $color[ffffff]
+ $color[00FCFF]
 
  $addField[**Creation Date:**;$creationDate[$guildID]] 
  

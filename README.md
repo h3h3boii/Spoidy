@@ -1,6 +1,6 @@
-# Spoidy Information
+# Epicness Information
 
-Spoidy is a moderation bot named after a YouTuber iSteal Who has 30k Subscribers
+Epicness Is A Bot Made By TrueGamerTalha For Vishu
 
 ## Acknowledgements:
 
