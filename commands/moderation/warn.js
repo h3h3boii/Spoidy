@@ -8,7 +8,7 @@ $onlyIf[$mentioned[1]!=;You must mention someone.]
 
 $onlyPerms[manageroles;You cannot use this command]
 
-$color[ffffff]
+$color[ff00ff]
 
 $title[**$username[$mentioned[1]]** has been warned by $username for $noMentionMessage]
 
