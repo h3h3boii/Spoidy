@@ -1,4 +1,4 @@
 module.exports = {
     name: "support",
-    code: `join The Support Server: https://discord.gg/YrRn7AJmkS`
+    code: `Join The Support Server: https://discord.gg/C6y42TzH`
 }

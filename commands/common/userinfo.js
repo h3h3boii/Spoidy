@@ -2,19 +2,19 @@ module.exports = {
   name: "userinfo",
   aliases: ["whois", "ui", "userinfo"],
   code: `
-$title[User Info Of **$username[$mentioned[1]]**]
+$title[User Info Of **$username[$findUser[$message]]**]
 
-$thumbnail[$userAvatar[$mentioned[1]]]
+$thumbnail[$userAvatar[$findUser[$message]]]
 
-$addField[**Creation Date**:; $creationDate[$mentioned[1]]]
+$addField[**Creation Date**:; $creationDate[$findUser[$message]]]
 
-$addField[**Roles:**;$replaceText[$replaceText[$checkCondition[$userRoles[$findMember[$message];mentions]==];true;None];false;$userRoles[$findMember[$message];mentions]]]
+$addField[**Key Perms:**;$userPerms[$findUser[$message];,]]
 
-$addField[**User ID**:; $mentioned[1]]
+$addField[**Roles:**;$replaceText[$replaceText[$checkCondition[$userRoles[$findUser[$message];mentions]==];true;None];false;$userRoles[$findUser[$message];mentions]]]
 
-$addField[**Tag**:;<@$mentioned[1]>]
+$addField[**User ID**:; $findUser[$message]]
 
-$argsCheck[>1;You Must Mention Someone To Get Their Info!]
+$addField[**Tag**:;<@$findUser[$message]>]
 
-$color[00FCFF]`
+$color[$getVar[embedc]]`
 };

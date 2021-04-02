@@ -1,7 +1,7 @@
 module.exports = {
 name: "helpmod",
 aliases: ["hmod"],
-code: `$title[<a:helpmod:819064493929529415> Epicness Moderation Commands]
+code: `$title[$customEmoji[helpmod] Spoidy Moderation Commands]
 $description[**$getServerVar[prefix]warn <user>**
 Warns A Member
  
@@ -25,5 +25,5 @@ Kicks A User From The Server
 
 **$getServerVar[prefix]clear <amount>**
 Clears an Amount Of Messages]
-$color[00FCFF]`
+$color[$getVar[embedc]]`
 }

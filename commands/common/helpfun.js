@@ -1,10 +1,8 @@
 module.exports = {
   name: "helpfun",
   aliases: ["hfun"],
-  code: `$title[<a:helpfun:803589215664209940> Epicness Fun Commands]
-$description[**$getServerVar[prefix]lovecheck <@user>**
-Check Love Beteen You And The Username
-
+  code: `$title[$customEmoji[helpfun] Spoidy Fun Commands]
+$description[
 **$getServerVar[prefix]say <message>**
 Make The Bot Say For You
 
@@ -24,7 +22,7 @@ Get A User's Avatar
 Hacks A User For Fun
 
 **$getServerVar[prefix]coinflip**
-Flips A Coin
+Flips A Coin To Help You Make A Decision
 ]
-$color[00FCFF]`
+$color[$getVar[embedc]]`
 }
