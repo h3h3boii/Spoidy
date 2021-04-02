@@ -1,12 +1,12 @@
 const dbd = require("dbd.js");
 
 const bot = new dbd.Bot({
- token:"NzQ5MTMzNDM1Nzc5NTQ3MTg4.X0ni4Q.",
+ token:"LOL",
   prefix: "$getServerVar[prefix]"
 });
 
 bot.status({
-  text: "Betraying TrueGamerTalha!",
+  text: "$serverCount Servers || S.help",
   type: "STREAMING",
   url: "https://www.twitch.tv/truegamertalhayt",
   time: 12
