@@ -1,9 +1,9 @@
 module.exports = {
   name: "lock", 
-  code: `$modifyChannelPerms[$channelID;-sendmessages;$guildID]
-$color[ff00ff]
+  code: `$modifyChannelPerms[$findChannel[$message;yes];-sendmessages;$guildID]
+$color[$getVar[embedc]]
 $title[**Channel Has Been Locked | :white_check_mark:**]
-$description[<#$channelID> **Has Been Locked By $username**]
+$description[<#$findChannel[$message;yes]> **Has Been Locked By $username**]
 $onlyPerms[managechannels;You cannot use this command]
 `
 }

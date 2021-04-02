@@ -1,10 +1,14 @@
-module.exports = {
-  name: "ban",
-  code: `
-$ban[$mentioned[1]]
-$channelSendMessage[$channelID;{title:**$username[$mentioned[1]]** Was Banned From The Server By $username}{color:ff00ff}]
-$onlyIf[$rolePosition[$highestRole[$authorID]]<$rolePosition[$highestRole[$mentioned[1]]];That user is higher than you on role position.]
-$onlyIf[$mentioned[1]!=$authorID;You can't ban yourself]
-$onlyIf[$mentioned[1]!=;You must mention someone.]
-$onlyPerms[ban;{title:Missing Permissions}{color:ff00ff}{description:You don't have Ban permissions to use this command}]`
-};
+module.exports = ({
+name: "ban",
+code: `$ban[$findmember[$message[1];no]]
+$senddm[$findmember[$message;no];{title:You got banned!}{description:Banned by: $usertag[$authorid], in **$serverName[$guildID]
+Reason: $replacetext[$replacetext[$checkcondition[$messageslice[1]!=];false;No reason];true;$messageslice[1]]}{color:$getVar[embedc]}]
+$sendMessage[:white_check_mark: | The User **$usertag[$findmember[$message;no]]** Was banned Successfully!]
+$onlyif[$roleposition[$highestrole[$clientid]]<$roleposition[$highestrole[$findmember[$message[1];no]]];:x: | I can't ban the user thats have same or highest role than me]
+$onlyif[$roleposition[$highestrole[$authorID]]<$roleposition[$highestrole[$findmember[$message[1];no]]];:x: | You can't ban the user who has same or highest role than you]
+$onlyif[$hasperms[$clientid;ban]==true;I dont have **Ban Members** permission to do this action]
+$onlyif[$hasperms[$authorid;ban]==true;You need **Ban Members** permission to do this action]
+$onlyif[$findmember[$message[1];no]!=undefined;:x: | The user doesnt exist!]
+$onlyif[$message!=;:x: Invalid arguments \n\`\`\`\n$getServerVar[prefix]ban < member > ( reason )\n\`\`\`]
+$cooldown[5s;Please wait for %time% {delete:5s}] 
+`})
