@@ -1,6 +1,6 @@
 # Spoidy Information
 
-Spoidy Is A Bot Made By TrueGamerTalha
+Spoidy is an advanced moderation bot
 
 ## Acknowledgements:
 
