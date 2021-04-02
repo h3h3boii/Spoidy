@@ -1,9 +1,18 @@
-module.exports = {
-  name: "hack",
- code: `Hacking $username[$mentioned[1;yes]]...
- $onlyIf[$mentioned[1]!=;You must mention someone.]
-$editIn[5s;Discord token: $randomString[100];Email: $randomText[lordly123451234523@gmail.com;$username1234iamcool123@gmail.com;iainteverseentwoprettybestfriends@gmail.com;poopybutt$username@gmail.com;$usernamediesfromcoolness@gmail.com;verycoolrealgmail@gmail.com;discordbotsorg@gmail.com;walmartofficial123@gmail.com;asdfdrtertrt@gmail.com]; Password: $randomText[whatthefuck;poop;gay;haha$username;ilovemoney;$username;iselldrugs;aefertewr;The bisector went through the binary.;cringegamer.xd;xX69$username420Xx]; Last message sent: " $randomText[bro how do i tell her..;Love you step bro;I'm stuck in the dryer step bro;Sweet home alabama.;Frog you all.;tiktok sucks lol;i love watching weird things on weird websites haha;Is 3 inches enough;She left me on read;what would happen if i got hacked lmao;qzxy is the best bot wtf lol;i love gacha;is 3 inches good or wat]";Location: $randomText[Canada;Earth;America;White house;Currently at home;Outside.];Hack complete;All data has been deleted and is being sent to the internet.]`
-}
+module.exports = ({
+name:"hack",
+code:`**__Starting a dangerous Hack on $username[$mentioned[1]]__**
+$editIn[3s;**Got the token of the user:**
+$randomString[18];**Email of the user:**
+$replaceText[$username; ;_;-1]@gmail.com;Password:
+$randomString[7];**Recent contacts:**
+$username[$randomUserID];**Most used word:**
+$randomText[meme;lol;nah;lmao;dude;bruh;wut;nou];**Most recent dm message:**
+$randomText[I think you are mad af;bye;Why u blocked me;I am mad];**Hacking medical records**;**Hacked Email(bypassed 2FA too)**;**Injecting Latest version of Corona into the account**;**Hacking microsoft account**;**Microsoft password: $randomText[ZapIsZap@Zap.com;IAmNoob@gmail.com;ByeBye@ok.co.in;$replaceText[$username; ;_;-1]IsSmart@yahoo.com]**;**Checking User Games**;**Plays $randomText[fortnite(....);subway surfers;temple run;clash of clans]**;**Hacking epic games account**;**Epic games account hacked and deleted**;**Discord IP:
+$numberSeparator[$random[100000000;900000000];.]**;__The *totally*  dangerous, risky and scary hack on $username[$mentioned[1]] is complete!__
+
+But be safe, the police may come anytime soon now :rofl:]
+$onlyIf[$mentioned[1]!=;Woah wait, where is the person who is to be hacked bruh]
+$onlyIf[$authorID!=$mentioned[1];....hacking yourself?]`})
   
   
   
