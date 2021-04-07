@@ -1,7 +1,7 @@
 const dbd = require("dbd.js");
 
 const bot = new dbd.Bot({
- token:"LOL",
+  token:"Spoidy_Token",
   prefix: "$getServerVar[prefix]"
 });
 
@@ -18,13 +18,26 @@ bot.onMessage();
 
 bot.musicStartCommand({
 	channel: '$channelID',
-	code: `$author[Now Playing;https://cdn.discordapp.com/emojis/814941457798266942.gif]
-$description[[$songInfo[title]\\]($songInfo[url])
-	Requested by: <@$songInfo[userID]>
-	Duration: $jsonRequest[http://api.somecool.repl.co/yt-search?search=$songInfo[title];duration;]]
+	code: `$author[Started Playing;https://cdn.discordapp.com/emojis/814941457798266942.gif]
+$description[**[$songInfo[title]\\]($songInfo[url])**
+
+  Requested by: 
+<@$songInfo[userID]>
+
+  Duration: 
+\`\`\`
+$jsonRequest[http://api.somecool.repl.co/yt-search?search=$songInfo[title];duration;]\`\`\`
+  Volume: 
+\`\`\`
+$volume% \`\`\`
+  Description:
+ \`\`\`
+$songInfo[description] \`\`\`
+]
 $addTimestamp 
 $color[$getVar[embedc]] 
-$wait[3s]`
+$volume[50]
+$wait[1s]`
 });
 
 bot.botJoinCommand({
@@ -69,6 +82,9 @@ bot.variables({
   embedc: "00FFFF",
   afk: "0",
   afkwhy: "",
+  automod: "enabled",
+  antilinks: "enabled",
+  nword: "enabled",
 });
 
 bot.command({
