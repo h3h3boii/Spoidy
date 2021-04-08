@@ -1,7 +1,7 @@
 const dbd = require("dbd.js");
 
 const bot = new dbd.Bot({
- token:"ODA2MzQ1MjEyNTMxNTcyNzY2.YBoFfw.XQjvN71dnqEgA68-mp_6tsukxi0",
+ token:"Token",
   prefix: "$getServerVar[prefix]"
 });
 
