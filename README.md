@@ -1,6 +1,6 @@
-# Spoidy Information
+# Suparmin Information
 
-Spoidy is an advanced moderation bot
+Suparmin is an advanced moderation bot
 
 ## Acknowledgements:
 
