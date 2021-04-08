@@ -1,7 +1,7 @@
 module.exports = {
   name: "help",
   aliases: ["h", "help"],
-  code: `$title[$customEmoji[spoidyhelp] **Spoidy Help Commands**]
+  code: `$title[$customEmoji[spoidyhelp] **Suparmin Help Commands**]
   
 $description[**╔═ ≪ °❈° ≫ ═╗**
     $customEmoji[sprefix] **Prefix: $getServerVar[prefix]**
