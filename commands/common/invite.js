@@ -1,6 +1,6 @@
 module.exports = {
   name: "invite",
   code: `
-$title[Click Here To Invite Spoidy!;https://discord.com/oauth2/authorize?client_id=749133435779547188&scope=bot&permissions=2080776318]
+$title[Click Here To Invite Suparmin!;https://discord.com/oauth2/authorize?client_id=806345212531572766&permissions=8&scope=bot]
 $color[$getVar[embedc]]`
 };
