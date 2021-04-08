@@ -1,7 +1,7 @@
 module.exports = {
 name: "helpmod",
 aliases: ["hmod"],
-code: `$title[$customEmoji[helpmod] Spoidy Moderation Commands]
+code: `$title[$customEmoji[helpmod] Suparmin Moderation Commands]
 $description[**$getServerVar[prefix]warn <user>**
 Warns A Member
  
