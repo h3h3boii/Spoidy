@@ -1,7 +1,7 @@
 module.exports = {
 name: "helpsettings",
 aliases: ["hsettings"],
-code: `$title[$customEmoji[helpsettings] Spoidy ServerSettings Commands]
+code: `$title[$customEmoji[helpsettings] Suparmin ServerSettings Commands]
 $description[**$getServerVar[prefix]setprefix <new_prefix>**
 Change the prefix of Spoidy
 
