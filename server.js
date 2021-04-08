@@ -1,14 +1,14 @@
 const dbd = require("dbd.js");
 
 const bot = new dbd.Bot({
-  token:"Spoidy_Token",
+ token:"ODA2MzQ1MjEyNTMxNTcyNzY2.YBoFfw.XQjvN71dnqEgA68-mp_6tsukxi0",
   prefix: "$getServerVar[prefix]"
 });
 
 bot.status({
   text: "$serverCount Servers || S.help",
   type: "STREAMING",
-  url: "https://www.twitch.tv/truegamertalhayt",
+  url: "https://www.twitch.tv/igamingindonesia",
   time: 12
 });
 
@@ -18,31 +18,18 @@ bot.onMessage();
 
 bot.musicStartCommand({
 	channel: '$channelID',
-	code: `$author[Started Playing;https://cdn.discordapp.com/emojis/814941457798266942.gif]
-$description[**[$songInfo[title]\\]($songInfo[url])**
-
-  Requested by: 
-<@$songInfo[userID]>
-
-  Duration: 
-\`\`\`
-$jsonRequest[http://api.somecool.repl.co/yt-search?search=$songInfo[title];duration;]\`\`\`
-  Volume: 
-\`\`\`
-$volume% \`\`\`
-  Description:
- \`\`\`
-$songInfo[description] \`\`\`
-]
+	code: `$author[Now Playing;https://cdn.discordapp.com/emojis/814941457798266942.gif]
+$description[[$songInfo[title]\\]($songInfo[url])
+	Requested by: <@$songInfo[userID]>
+	Duration: $jsonRequest[http://api.somecool.repl.co/yt-search?search=$songInfo[title];duration;]]
 $addTimestamp 
 $color[$getVar[embedc]] 
-$volume[50]
-$wait[1s]`
+$wait[3s]`
 });
 
 bot.botJoinCommand({
   channel: "820977380943462420",
-  code: `$title[Spoidy Joined A Server!]
+  code: `$title[Suparmin Joined A Server!]
 $color[$getVar[embedc]]
 $description[**ServerName:** $serverName
 
@@ -56,7 +43,7 @@ bot.onGuildJoin();
 
 bot.botLeaveCommand({
   channel: "820977380943462420",
-  code: `$title[Spoidy Left A Server!]
+  code: `$title[Suparmin Left A Server!]
 $color[$getVar[embedc]]
 $description[**ServerName:** $serverName
 
@@ -82,9 +69,6 @@ bot.variables({
   embedc: "00FFFF",
   afk: "0",
   afkwhy: "",
-  automod: "enabled",
-  antilinks: "enabled",
-  nword: "enabled",
 });
 
 bot.command({
