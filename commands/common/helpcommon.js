@@ -1,24 +1,24 @@
 module.exports = {
   name: "helpcommon",
   aliases: ["hcommon"],
-  code: `$title[$customEmoji[helpcommon] Spoidy Common Commands]
+  code: `$title[$customEmoji[helpcommon] Suparmin Common Commands]
 $description[**$getServerVar[prefix]help**
 Shows The Help Commands 
 
 **$getServerVar[prefix]info**
-Shows Spoidy's Stats
+Shows Suparmin's Stats
 
 **$getServerVar[prefix]vote**
-Vote For Spoidy To Get Rewards
+Vote For Suparmin To Get Rewards
 
 **$getServerVar[prefix]support**
 Gives Link To Support Server
 
 **$getServerVar[prefix]invite**
-Gives Invite Link For Spoidy
+Gives Invite Link For Suparmin
 
 **$getServerVar[prefix]github**
-Gives The GitHub Link To Spoidy
+Gives The GitHub Link To Suparmin
 
 **$getServerVar[prefix]userinfo**
 Gives Information Of A User
