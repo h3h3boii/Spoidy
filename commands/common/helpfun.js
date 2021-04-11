@@ -1,7 +1,7 @@
 module.exports = {
   name: "helpfun",
   aliases: ["hfun"],
-  code: `$title[$customEmoji[helpfun] Spoidy Fun Commands]
+  code: `$title[$customEmoji[helpfun] Suparmin Fun Commands]
 $description[
 **$getServerVar[prefix]say <message>**
 Make The Bot Say For You
